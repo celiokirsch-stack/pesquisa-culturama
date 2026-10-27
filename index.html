@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pesquisa Culturama</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
@@ -28,7 +29,7 @@
                 <input id="email" name="userEmail" required>
                 <br>
                 <label for="tel">Telefone</label>
-                <input id="tel" nome="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + número sem espaços ou hífen">
+                <input id="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + número sem espaços ou hífen">
                 <br>
                 <label for="image">Upload de foto</label>
                 <input id="image" type="file" accept="image/*" name="userImage">
@@ -109,7 +110,7 @@
                     <option value="Sertanejo">
                 </datalist>
                 <br>
-                <label for="favoriteColor">Cor favorita:</label>SSS
+                <label for="favoriteColor">Cor favorita:</label>
                 <input type="color" name="userFavoriteColor" id="favoriteColor">
             </fieldset>
             <fieldset>
@@ -136,8 +137,8 @@
                 <label for="getResult">Desejo receber o resultado por email</label>
             </fieldset>
             <br>
-            <button type+"submit">Enviar</button>
-            <button type+"reset">Limpar</button>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
 
         </form>
     </section>
